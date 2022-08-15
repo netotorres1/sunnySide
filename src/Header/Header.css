@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.HeaderContainer{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;900&display=swap');
+.navbarContainer{
+    width: 1440px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    z-index: 2;
+    font-family: 'Barlow', sans-serif;
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+
+}
+.navbar{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.headerbtn{
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    padding-left: 25px;
+    font-family: 'Barlow', sans-serif;
+}
+.headerbtn:hover{
+    background-color: white;
+
+    color: black;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.headerTitle{
+    font-size: 30px;
+}
+.background{
+    width: 100%;
+    position: relative;
+    top: -125px;
+    z-index: 1;
+}
+.headerNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.title{
+    background-color: transparent;
+    font-size: 60px;
+    width:650px;
+    z-index: 3;
+    position: relative;
+    top: 200px;
+    color: white;
+    left: 500px;
+    font-family: 'Fraunces', serif;
+}
