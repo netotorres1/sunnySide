@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;900&display=swap');
+.Container{
+    width: 1440px;
+    margin: auto;
+    position: relative;
+    bottom: 139px;
+    
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+   
+}
+.card1Tittle{
+    font-family: 'Fraunces', serif;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.card1p{
+    line-height: 25px;
+    color: rgb(148, 147, 147);
+    margin-bottom: 30px;
+}
+.card1btn{
+   font-family: 'Fraunces', serif ;
+   border: none;
+   font-size: 25px;
+   background-color: transparent;
+   position: relative;
+   right: 125px;
+}
+.card1btn:hover{
+    border-bottom: 10px solid #FFD302;
+}
+.div2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    right: 200px;
+}
+.card2Title{
+    font-family: 'Fraunces', serif ;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.card2p{
+    font-family: 'Barlow', sans-serif;
+    line-height: 25px;
+    color: rgb(148, 147, 147);
+    margin-bottom: 30px;
+}
+.card2btn{
+    font-family: 'Fraunces', serif ;
+   border: none;
+   font-size: 25px;
+   background-color: transparent;
+   position: relative;
+   right: 125px;
+   padding: 10px;
+}
+.card2btn:hover{
+    border-bottom: 10px solid #FF6F64;
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 5px;
+ 
+}
+.card3Title{
+    position: relative;
+    bottom: 200px;
+    font-family: 'Fraunces', serif ;
+    left: 270px;
+    
+    width: 200px;
+}
+.card4Title{
+    position: relative;
+    bottom: 200px;
+    font-family: 'Fraunces', serif ;
+    left: 270px;
+    width: 200px;
+}
+.card3p{
+    position: relative;
+    bottom: 170px;
+    width: 350px;
+    left: 170px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    line-height: 25px;
+}
+.card4p{
+    position: relative;
+    bottom: 170px;
+    width: 350px;
+    left: 170px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    line-height: 25px;
+}
