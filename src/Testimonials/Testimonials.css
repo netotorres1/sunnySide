@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;900&display=swap');
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    position: relative;
+    right: 200px;
+}
+.Testimonials{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.TitleTestimonials{
+    position: relative;
+    bottom: 350px;
+    left: 470px;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: lightgray;
+}
+.Comment{
+    width: 400px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    line-height: 30px;
+}
+.Photo{
+    margin-bottom: 50px;
+    border-radius: 50%;
+    height: 120px;
+}
+.CommentP{
+    color: rgb(104, 103, 103);
+    margin-bottom: 20px;
+}
+.CommentName{
+    font-family: 'Fraunces', serif;
+}

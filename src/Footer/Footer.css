@@ -1,0 +1,31 @@
+.Footer{
+    height: 400px;
+    background-color: #8BD3C5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1440px;
+    margin: auto;
+}
+.FooterTitle{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: hsl(168, 34%, 41%)
+}
+.BtnInfo{
+    background-color:#8BD3C5;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+
+    color: hsl(168, 34%, 41%);
+}
+.Icon{
+    height: 25px;
+    margin: 20px;
+}
+.BtnInfo:hover{
+    color: white;
+}

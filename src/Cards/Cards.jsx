@@ -7,7 +7,7 @@ import ImagePhotography from './../assets/desktop/image-photography.jpg'
 
 const Cards = () => {
   return (
-    <div className='Container'>
+    <div className='CardsContainer'>
         <div className='div1'>
             <div className='card1'>
                 <h2 className='card1Tittle'>Transform your brand</h2>

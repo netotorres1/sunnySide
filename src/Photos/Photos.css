@@ -1,0 +1,12 @@
+.Photos{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    margin: auto;
+}
+.Img{
+    height: 448px;
+}
