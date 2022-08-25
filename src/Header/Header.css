@@ -161,6 +161,10 @@
         border-radius: 25px;
         font-family: 'Fraunces', serif;
     }
+    .headerbtnContact:hover{
+        transform: scale(1,1);
+        background-color: #FFD101;
+    }
     .headerbtn{
         color: gray;
         font-family: 'Fraunces', serif;

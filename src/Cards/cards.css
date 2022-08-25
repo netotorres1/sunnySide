@@ -18,10 +18,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 400px;
+    width: 380px;
     margin: auto;
     font-family: 'Barlow', sans-serif;
-   
 }
 .card1Tittle{
     font-family: 'Fraunces', serif;
