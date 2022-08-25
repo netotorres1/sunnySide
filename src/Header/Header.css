@@ -1,10 +1,14 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;900&display=swap');
 .HeaderContainer{
     width: 1440px;
     margin: auto;
-    height: 800px;
+    height: 750px;
     position: relative;
     bottom: 140px;
 }
@@ -19,6 +23,12 @@
     color: white;
     box-sizing: border-box;
 
+}
+.IconArrow{
+    position: relative;
+    z-index: 2;
+    bottom: 650px;
+    left: 700px;
 }
 .navbar{
     box-sizing: border-box;
@@ -40,12 +50,35 @@
     align-items: center;
     justify-content: center;
 }
+.headerbtnContact{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+    padding-left: 25px;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerbtnContact:hover{
+    background-color: rgba(255, 255, 255, 0.356);
+
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+}
 .headerbtn:hover{
     background-color: rgba(255, 255, 255, 0.356);
 
     color: white;
     border-radius: 15px;
     font-weight: bold;
+}
+.headerbtnContact:active{
+    background-color: white;
+    color: black;
 }
 .headerbtn:active{
     background-color: white;
@@ -57,7 +90,7 @@
 .background{
     height: 800px;
     position: relative;
-    top: -135px;
+    bottom: 200px;
     z-index: 1;
 }
 .headerNavbar{
@@ -75,8 +108,86 @@
     width:650px;
     z-index: 3;
     position: relative;
-    top: 230px;
+    top: 150px;
     color: white;
     left: 400px;
     font-family: 'Fraunces', serif;
+}
+.hamburger{
+    display: none;
+    background-color: transparent;
+}
+@media only screen and (max-width: 380px){
+    .background{
+        width: 380px;
+        height: 600px;
+
+    }
+    .HeaderContainer{
+        width: 380px;
+        height: 575px;
+    }
+    .title{
+        width: 80%;
+        font-size: 35px;
+        position: relative;
+        left: 20px;
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+        z-index: 2;
+    }
+    .navbar{
+        display: none;
+    }
+    .navbar.active{
+        width: 300px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 40px;
+        top: 50px;
+        background-color: white;
+        z-index: 5;
+        color: black;
+    }
+    .headerbtnContact{
+        background-color: #FFD101;
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border: none;
+        border-radius: 25px;
+        font-family: 'Fraunces', serif;
+    }
+    .headerbtn{
+        color: gray;
+        font-family: 'Fraunces', serif;
+        width: 90%;
+    }
+    .headerbtn:hover{
+        background-color: lightgray;
+        color: black;
+    }
+    .hamburger{
+        display: flex;
+        position: relative;
+        left: 320px;
+        top: 20px;
+    }
+    .IconArrow{
+        display: none;
+    }
+    .headerNavbar{
+        width: 340px;
+    }
+    .navbarContainer{
+        width: 380px;
+    }
+    .headerTitle{
+        position: relative;
+        bottom: 15px;
+        right: 10px;
+    }    
 }

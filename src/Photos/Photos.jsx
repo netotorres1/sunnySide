@@ -8,10 +8,14 @@ import './Photos.css'
 const Photos = () => {
   return (
     <div className='Photos'>
-        <img className='Img' src={Milk} />
-        <img className='Img' src={Orange} />
-        <img className='Img' src={Cone} />
-        <img className='Img' src={Sugar} />
+      <div className='containerphotos'>
+      <img alt='Imagem' className='Img' src={Milk} />
+        <img alt='Imagem' className='Img' src={Orange} />
+      </div>
+      <div className='containerphotos'>
+      <img alt='Imagem' className='Img' src={Cone} />
+        <img alt='Imagem' className='Img' src={Sugar} />
+      </div>
     </div>
   )
 }

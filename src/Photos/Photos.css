@@ -10,3 +10,23 @@
 .Img{
     height: 448px;
 }
+.containerphotos{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 380px){
+    .Photos{
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+    .containerphotos{
+        width: 380px;
+        display: flex;
+        flex-direction: row;
+    }
+    .Img{
+        width: 195px;
+        height: 230px;
+    }
+}

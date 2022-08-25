@@ -42,3 +42,36 @@
 .CommentName{
     font-family: 'Fraunces', serif;
 }
+@media only screen and (max-width: 380px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        align-items: center;
+        justify-content: center;
+    }
+    .Testimonials{
+        width: 380px;
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+        left: 50px;
+    }
+    .Comment{
+        position: relative;
+        left: 200px;
+        width: 380px;
+    }
+    .CommentP{
+        width: 80%;
+        position: relative;
+        left: 10px;
+        width: 350px;
+    }
+    .TitleTestimonials{
+        left: 1px;
+        bottom:20px;
+        text-align: center;
+        width: 380px;
+    }
+}

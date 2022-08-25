@@ -16,7 +16,7 @@ const Cards = () => {
                 <button className='card1btn'>Learn more</button>
             </div>
             <div >
-                <img src={Egg}/>
+                <img alt='egg' className='egg' src={Egg}/>
             </div>
         </div>
         <div className='div2'>
@@ -27,19 +27,19 @@ const Cards = () => {
                  <button className='card2btn'>Learn more</button>
             </div>
             <div>
-                <img src={StandOut}/>
+                <img alt='standout' className='standout' src={StandOut}/>
             </div>
         </div>
         <div className='div3'>
             <div className='card3'>
-                <img src={ImageGraphicDesign} />
+                <img alt='Graphic Design' className='graphicdesign' src={ImageGraphicDesign} />
                 <h2 className='card3Title'>Graphic design</h2>
                 <p className='card3p'>
                 Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
                 </p>
             </div>
             <div className='card4'>
-                <img src={ImagePhotography} />
+                <img alt='Photography' className='photoggraphy' src={ImagePhotography} />
                 <h2 className='card4Title'>  Photography</h2>
                 <p className='card4p'>
                 Increase your credibility by getting the most stunning, high-quality photos that improve your business image.

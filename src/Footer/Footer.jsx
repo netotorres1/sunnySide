@@ -3,6 +3,7 @@ import FacebookIcon from './../assets/icon-facebook.svg'
 import instagramIcon from './../assets/icon-instagram.svg'
 import TwitterIcon from './../assets/icon-twitter.svg'
 import PinterestIcon from './../assets/icon-pinterest.svg'
+
 import './Footer.css'
 
 const Footer = () => {
@@ -15,12 +16,13 @@ const Footer = () => {
             <button className='BtnInfo'>Projects</button>
         </div>
         <div className='Icons'>
-            <img className='Icon' src={FacebookIcon} />
-            <img className='Icon' src={instagramIcon} />
-            <img className='Icon' src={TwitterIcon} />
-            <img className='Icon' src={PinterestIcon} />
+            <img alt='facebook' className='Icon' src={FacebookIcon} />
+            <img alt='instagram' className='Icon' src={instagramIcon} />
+            <img alt='twitter' className='Icon' src={TwitterIcon} />
+            <img alt='pinterest' className='Icon' src={PinterestIcon} />
         </div>
     </div>
+    
   )
 }
 

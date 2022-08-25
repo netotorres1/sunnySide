@@ -122,3 +122,112 @@
     font-family: 'Barlow', sans-serif;
     line-height: 25px;
 }
+@media only screen and (max-width: 380px){
+    .CardsContainer{
+        width: 380px;
+        height: 2300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .div1{
+        width: 380px;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .egg{
+        width: 380px;
+        position: relative;
+        bottom: 15px;
+    }
+    .card1Tittle{
+        font-size: 30px;
+        width: 60%;
+        text-align: center;
+    }
+    .card1p{
+        width: 60%;
+        text-align: center;
+  
+    }
+    .card1btn{
+        position: relative;
+        left: 5px;
+        
+    }
+    .card2{
+        width: 380px;
+    }
+    .card3{
+        width: 380px;
+        height: 500px;
+    }
+    .div2{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 380px;
+    }
+    .standout{
+        width: 380px;
+    }
+    .card2p{
+        width: 60%;
+        text-align: center;
+        position: relative;
+        left: 200px;
+        
+    }
+    .card2Title{
+        font-size: 30px;
+        width: 60%;
+        text-align: center;
+        position: relative;
+        left: 200px;
+    
+    }
+    .card2btn{
+        position: relative;
+        left: 200px;
+        
+    }
+    .div3{
+        width: 380px;
+    }
+    .graphicdesign{
+        width: 380px;
+        object-fit: cover;
+        height: 500px;
+    }
+    .card3Title{
+        width: 60%;
+        position: relative;
+        left: 100px;
+        
+    }
+    .card3p{
+        width: 60%;
+        left: 70px;
+    }
+    .card4{
+        width: 380px;
+        height: 500px;
+    }
+    .photoggraphy{
+        width: 380px;
+        object-fit: cover;
+        height: 500px;
+    }
+    .card4Title{
+        width: 60%;
+        position: relative;
+        left: 100px;
+    }
+    .card4p{
+        width: 60%;
+        position: relative;
+        left: 70px;
+    }
+    .div3{
+        display: flex;
+        flex-direction: column;
+    }
+}
